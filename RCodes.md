@@ -3,11 +3,25 @@
 
 
 # Table of Contents
-1. [UsefulWebSite](#example)
+1. [Useful Web Links](#Useful R website)
 2. [Example2](#example2)
 
-## Example
-add something here.  Example
+asdas
+asdasd
+adsads
+adsasa
+adsads
+
+
+
+
+## Useful R website
+Transition to R (Gregory S. Gilbert website):
+      http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics
+Quick R:  
+      http://www.statmethods.net/
+Help within R
+      library(help="igraph") or help("igraph") as a starting point.
 
 ## Example2
 Add somehting here.  Example 2.
@@ -15,13 +29,6 @@ Add somehting here.  Example 2.
 
 
 
-############ Useful R website #############
-Transition to R (Gregory S. Gilbert website):
-      http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics
-Quick R:  
-      http://www.statmethods.net/
-Help within R
-      library(help="igraph") or help("igraph") as a starting point.
 
 ############  Data Manipulation  ############# 
 #-- Read in Excel file --#
