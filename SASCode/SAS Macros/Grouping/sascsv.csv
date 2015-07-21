@@ -1,0 +1,76 @@
+"Obs","Attrib","Effect","trt","Estimate","StdErr","DF","tValue","Probt"
+"1","Greasiness","trt","Control Shampoo Only",0.6889,0.3134,11.6,2.20,0.0490
+"2","Greasiness","trt","Fekkai Commercial Gloss",3.5037,0.3134,11.6,11.18,<.0001
+"3","Greasiness","trt","Fekkai Commercial Gloss+SFE839",3.4569,0.3134,11.6,11.03,<.0001
+"4","Greasiness","trt","Lab Made Gloss Only",4.4333,0.3134,11.6,14.15,<.0001
+"5","Greasiness","trt","Lab Made Gloss+SFE839",3.6729,0.3134,11.6,11.72,<.0001
+"6","Greasiness","trt","SFE839+MAKIMOUSSE",0.9516,0.3134,11.6,3.04,0.0107
+"7","Shine","trt","Control Shampoo Only",1.4336,0.1757,100,8.16,<.0001
+"8","Shine","trt","Fekkai Commercial Gloss",1.2842,0.1757,100,7.31,<.0001
+"9","Shine","trt","Fekkai Commercial Gloss+SFE839",1.3008,0.1757,100,7.40,<.0001
+"10","Shine","trt","Lab Made Gloss Only",0.8832,0.1757,100,5.03,<.0001
+"11","Shine","trt","Lab Made Gloss+SFE839",1.2846,0.1757,100,7.31,<.0001
+"12","Shine","trt","SFE839+MAKIMOUSSE",1.8100,0.1757,100,10.30,<.0001
+
+"Obs","Attrib","trt","_trt","Diff","Probt","Trt_LSMean","_Trt_LSMean"
+"1","Greasiness","Lab Made Gloss Only","Lab Made Gloss+SFE839",0.7604,0.1127,4.4333,3.6729
+"2","Greasiness","Lab Made Gloss Only","Fekkai Commercial Gloss",0.9296,0.0585,4.4333,3.5037
+"3","Greasiness","Lab Made Gloss Only","Fekkai Commercial Gloss+SFE839",0.9764,0.0486,4.4333,3.4569
+"4","Greasiness","Lab Made Gloss Only","SFE839+MAKIMOUSSE",3.4817,<.0001,4.4333,0.9516
+"5","Greasiness","Lab Made Gloss Only","Control Shampoo Only",3.7444,<.0001,4.4333,0.6889
+"6","Greasiness","Lab Made Gloss+SFE839","Lab Made Gloss Only",-0.7604,0.1127,3.6729,4.4333
+"7","Greasiness","Lab Made Gloss+SFE839","Fekkai Commercial Gloss",0.1692,0.7094,3.6729,3.5037
+"8","Greasiness","Lab Made Gloss+SFE839","Fekkai Commercial Gloss+SFE839",0.2160,0.6350,3.6729,3.4569
+"9","Greasiness","Lab Made Gloss+SFE839","SFE839+MAKIMOUSSE",2.7213,<.0001,3.6729,0.9516
+"10","Greasiness","Lab Made Gloss+SFE839","Control Shampoo Only",2.9841,<.0001,3.6729,0.6889
+"11","Greasiness","Fekkai Commercial Gloss","Lab Made Gloss Only",-0.9296,0.0585,3.5037,4.4333
+"12","Greasiness","Fekkai Commercial Gloss","Lab Made Gloss+SFE839",-0.1692,0.7094,3.5037,3.6729
+"13","Greasiness","Fekkai Commercial Gloss","Fekkai Commercial Gloss+SFE839",0.04678,0.9177,3.5037,3.4569
+"14","Greasiness","Fekkai Commercial Gloss","SFE839+MAKIMOUSSE",2.5521,0.0001,3.5037,0.9516
+"15","Greasiness","Fekkai Commercial Gloss","Control Shampoo Only",2.8148,<.0001,3.5037,0.6889
+"16","Greasiness","Fekkai Commercial Gloss+SFE839","Lab Made Gloss Only",-0.9764,0.0486,3.4569,4.4333
+"17","Greasiness","Fekkai Commercial Gloss+SFE839","Lab Made Gloss+SFE839",-0.2160,0.6350,3.4569,3.6729
+"18","Greasiness","Fekkai Commercial Gloss+SFE839","Fekkai Commercial Gloss",-0.04678,0.9177,3.4569,3.5037
+"19","Greasiness","Fekkai Commercial Gloss+SFE839","SFE839+MAKIMOUSSE",2.5053,0.0001,3.4569,0.9516
+"20","Greasiness","Fekkai Commercial Gloss+SFE839","Control Shampoo Only",2.7680,<.0001,3.4569,0.6889
+"21","Greasiness","SFE839+MAKIMOUSSE","Lab Made Gloss Only",-3.4817,<.0001,0.9516,4.4333
+"22","Greasiness","SFE839+MAKIMOUSSE","Lab Made Gloss+SFE839",-2.7213,<.0001,0.9516,3.6729
+"23","Greasiness","SFE839+MAKIMOUSSE","Fekkai Commercial Gloss",-2.5521,0.0001,0.9516,3.5037
+"24","Greasiness","SFE839+MAKIMOUSSE","Fekkai Commercial Gloss+SFE839",-2.5053,0.0001,0.9516,3.4569
+"25","Greasiness","SFE839+MAKIMOUSSE","Control Shampoo Only",0.2627,0.5647,0.9516,0.6889
+"26","Greasiness","Control Shampoo Only","Lab Made Gloss Only",-3.7444,<.0001,0.6889,4.4333
+"27","Greasiness","Control Shampoo Only","Lab Made Gloss+SFE839",-2.9841,<.0001,0.6889,3.6729
+"28","Greasiness","Control Shampoo Only","Fekkai Commercial Gloss",-2.8148,<.0001,0.6889,3.5037
+"29","Greasiness","Control Shampoo Only","Fekkai Commercial Gloss+SFE839",-2.7680,<.0001,0.6889,3.4569
+"30","Greasiness","Control Shampoo Only","SFE839+MAKIMOUSSE",-0.2627,0.5647,0.6889,0.9516
+"31","Shine","SFE839+MAKIMOUSSE","Control Shampoo Only",0.3764,0.1330,1.8100,1.4336
+"32","Shine","SFE839+MAKIMOUSSE","Fekkai Commercial Gloss+SFE839",0.5092,0.0431,1.8100,1.3008
+"33","Shine","SFE839+MAKIMOUSSE","Lab Made Gloss+SFE839",0.5254,0.0370,1.8100,1.2846
+"34","Shine","SFE839+MAKIMOUSSE","Fekkai Commercial Gloss",0.5257,0.0369,1.8100,1.2842
+"35","Shine","SFE839+MAKIMOUSSE","Lab Made Gloss Only",0.9268,0.0003,1.8100,0.8832
+"36","Shine","Control Shampoo Only","SFE839+MAKIMOUSSE",-0.3764,0.1330,1.4336,1.8100
+"37","Shine","Control Shampoo Only","Fekkai Commercial Gloss+SFE839",0.1328,0.5943,1.4336,1.3008
+"38","Shine","Control Shampoo Only","Lab Made Gloss+SFE839",0.1490,0.5502,1.4336,1.2846
+"39","Shine","Control Shampoo Only","Fekkai Commercial Gloss",0.1493,0.5493,1.4336,1.2842
+"40","Shine","Control Shampoo Only","Lab Made Gloss Only",0.5504,0.0290,1.4336,0.8832
+"41","Shine","Fekkai Commercial Gloss+SFE839","SFE839+MAKIMOUSSE",-0.5092,0.0431,1.3008,1.8100
+"42","Shine","Fekkai Commercial Gloss+SFE839","Control Shampoo Only",-0.1328,0.5943,1.3008,1.4336
+"43","Shine","Fekkai Commercial Gloss+SFE839","Lab Made Gloss+SFE839",0.01620,0.9482,1.3008,1.2846
+"44","Shine","Fekkai Commercial Gloss+SFE839","Fekkai Commercial Gloss",0.01654,0.9471,1.3008,1.2842
+"45","Shine","Fekkai Commercial Gloss+SFE839","Lab Made Gloss Only",0.4176,0.0960,1.3008,0.8832
+"46","Shine","Lab Made Gloss+SFE839","SFE839+MAKIMOUSSE",-0.5254,0.0370,1.2846,1.8100
+"47","Shine","Lab Made Gloss+SFE839","Control Shampoo Only",-0.1490,0.5502,1.2846,1.4336
+"48","Shine","Lab Made Gloss+SFE839","Fekkai Commercial Gloss+SFE839",-0.01620,0.9482,1.2846,1.3008
+"49","Shine","Lab Made Gloss+SFE839","Fekkai Commercial Gloss",0.000346,0.9989,1.2846,1.2842
+"50","Shine","Lab Made Gloss+SFE839","Lab Made Gloss Only",0.4014,0.1094,1.2846,0.8832
+"51","Shine","Fekkai Commercial Gloss","SFE839+MAKIMOUSSE",-0.5257,0.0369,1.2842,1.8100
+"52","Shine","Fekkai Commercial Gloss","Control Shampoo Only",-0.1493,0.5493,1.2842,1.4336
+"53","Shine","Fekkai Commercial Gloss","Fekkai Commercial Gloss+SFE839",-0.01654,0.9471,1.2842,1.3008
+"54","Shine","Fekkai Commercial Gloss","Lab Made Gloss+SFE839",-0.00035,0.9989,1.2842,1.2846
+"55","Shine","Fekkai Commercial Gloss","Lab Made Gloss Only",0.4011,0.1097,1.2842,0.8832
+"56","Shine","Lab Made Gloss Only","SFE839+MAKIMOUSSE",-0.9268,0.0003,0.8832,1.8100
+"57","Shine","Lab Made Gloss Only","Control Shampoo Only",-0.5504,0.0290,0.8832,1.4336
+"58","Shine","Lab Made Gloss Only","Fekkai Commercial Gloss+SFE839",-0.4176,0.0960,0.8832,1.3008
+"59","Shine","Lab Made Gloss Only","Lab Made Gloss+SFE839",-0.4014,0.1094,0.8832,1.2846
+"60","Shine","Lab Made Gloss Only","Fekkai Commercial Gloss",-0.4011,0.1097,0.8832,1.2842
+

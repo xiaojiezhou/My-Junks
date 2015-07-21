@@ -1,0 +1,1456 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033
+{\fonttbl
+{\f1\froman\fprq2\fcharset0 Times New Roman;}
+{\f2\fmodern\fprq1\fcharset0 Courier New;}
+}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+}{\stylesheet{\widctlpar\adjustright\fs20\cgrid\snext0 Normal;}{\*\cs10\additive Default Paragraph Font;}
+}{\info{\title Study CRB 11-07-088}{\author SAS Version 9.3}{\operator SAS Version 9.3}{\version1}{\creatim\yr2013\mo1\dy8\hr10\min58\sec25}}
+\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\fet0\paperw15840\paperh12240\margl360\margr360\margt360\margb360
+\sectd\linex0\endnhere\pgwsxn15840\pghsxn12240\lndscpsxn\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx15120
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs26\cf1{Study CRB 11-07-088\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX}{\*\bkmkend IDX}\trowd\trkeep\trhdr\trqc
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Attribute\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Trtgroup\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Studyday\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Population\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Sample Size\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Grouping*\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Adjusted{\line}
+Mean\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Change in{\line}
+Adjusted Mean\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Change from Baseline P-Value\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Standard Error\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Total Asfs\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Baseline\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{18.242\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.501\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{18.356\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.501\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{99\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{2.324\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.144\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{99\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{2.505\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.144\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{17.502\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.821\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0389\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.392\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{17.914\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.409\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.2996\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.392\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{2.379\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.003\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9897\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.198\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{2.384\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.003\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9897\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.198\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 2\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{95\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{13.882\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-4.423\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.590\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{95\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{15.633\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-2.672\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.590\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{3.130\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.724\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0141\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.289\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{3.203\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.797\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0070\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.289\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 3\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{12.256\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-6.067\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.621\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{13.807\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-4.516\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.621\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{2.667\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.261\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3685\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.288\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx992
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1933
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2885
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4159
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4931
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6381
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7459
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8378
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9297
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10148
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{2.896\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.489\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.0931\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.288\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11104
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\pgwsxn15840\pghsxn12240\lndscpsxn\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx15120
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs26\cf1{Study CRB 11-07-088\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX1}{\*\bkmkend IDX1}\trowd\trkeep\trhdr\trqc
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{P-Values\~for\~Treatment\~Mean\~Pairwise\~Comparisons\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Trtgroup\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Studyday\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Population\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment Code Key\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Baseline\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.7187\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.7187\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.2549\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.2549\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1655*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1655*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9807\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9807\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 2\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.7761\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.7761\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 3\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0017*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0017*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3288\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3288\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{A\~p-value\~with\~a\~'*'\~indicates\~a\~significant\~difference\~between\~treatments\~(P<=0.20).\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\pgwsxn15840\pghsxn12240\lndscpsxn\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx15120
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs26\cf1{Study CRB 11-07-088\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX2}{\*\bkmkend IDX2}\trowd\trkeep\trhdr\trqc
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Attribute\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Trtgroup\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Studyday\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Population\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Sample Size\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Grouping*\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Adjusted{\line}
+Mean\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Change in{\line}
+Adjusted Mean\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Change from Baseline P-Value\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Standard Error\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Scalp Sense\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Baseline\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{50.959\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.460\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{50.986\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.460\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{99\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{55.843\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.472\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{99\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{56.147\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.000\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{.\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.472\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{51.307\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.305\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3848\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.349\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{51.752\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.749\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0345\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.349\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{55.510\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.322\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.5228\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.502\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{97\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{56.212\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.380\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.4513\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.502\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 2\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{95\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{50.257\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.766\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0087\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.286\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{95\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{50.530\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-0.492\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0887\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.286\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{52.940\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-2.933\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.300\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{53.790\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-2.083\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.300\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 3\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{49.387\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-1.615\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.287\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{49.663\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-1.339\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.287\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{a\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{52.728\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{-3.145\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.350\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1116
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2057
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3009
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4283
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx5055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6505
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7583
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8502
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx9421
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx10272
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{96\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{  b\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{53.259\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{-2.614\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{0.350\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx11228
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+{\row}
+\pard
+\sect\sectd\linex0\endnhere\pgwsxn15840\pghsxn12240\lndscpsxn\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc{
+\trowd\trkeep\trqc
+\cltxlrtb\clvertalt\clcbpat8\clpadt10\clpadft3\clpadr10\clpadfr3\cellx15120
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs26\cf1{Study CRB 11-07-088\cell}
+{\row}
+\pard{\par}}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX3}{\*\bkmkend IDX3}\trowd\trkeep\trhdr\trqc
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{P-Values\~for\~Treatment\~Mean\~Pairwise\~Comparisons\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Trtgroup\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Studyday\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Population\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs20\cf1{Treatment Code Key\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Baseline\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9451\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.9451\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.4159\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.4159\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 1\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1749*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1749*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0343*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0343*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 2\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3820\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3820\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0086*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.0086*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Week 3\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3729\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.3729\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Non Dandruff\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1129*\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[A] No Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx1117
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx2224
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx3498
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx4948
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx6055
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx7162
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{0.1129*\cell}
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{------\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{[B] BC10 Tonic\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{\cell}
+{\row}
+\trowd\trkeep\trqc
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\clpadt60\clpadft3\clpadr60\clpadfr3\cellx8627
+\pard\plain\intbl\sb60\sa60\qc\f1\fs20\cf1{A\~p-value\~with\~a\~'*'\~indicates\~a\~significant\~difference\~between\~treatments\~(P<=0.20).\cell}
+{\row}
+\pard}
