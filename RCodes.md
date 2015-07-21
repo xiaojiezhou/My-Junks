@@ -1,7 +1,5 @@
-# R codes
 
-
-## Table of Contents
+## R codes - Table of Contents
 * [Useful R websites](#id-section1)
 * [Read in data](#id-section2)
 * [dplyr](#id-section6)

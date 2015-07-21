@@ -1,7 +1,5 @@
-# Github.md
 
-
-## Table of Contents
+## Github.md - Table of Contents
 * [Git Commands](#git)
 * [Markdown](#markdown)
     - [Useful Markdown links] (#markdown)
@@ -32,12 +30,10 @@
 
 [(back to top)](#table-of-contents)
 
-[Visit GitHub!](https://www.github.com).
-
 <div id='markdown'/>
 ## Markdowns
 ### --  Useful links --
-    [GitHub Help: Markdown Basics](https://help.github.com/articles/markdown-basics/)
-    [GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown/)
-    [GitHub Markdown Examples] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[GitHub Help: Markdown Basics](https://help.github.com/articles/markdown-basics/)
+[GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown/)
+[GitHub Markdown Examples] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 [(back to top)](#table-of-contents)
