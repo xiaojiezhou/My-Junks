@@ -1,7 +1,0 @@
-A = Crimson = 0.03% ZPT
-
-B = Green = 0.10% ZPT
-
-C = Crimson = 0.03% ZPT
-
-D = Yellow = 0.03% ZPT + 0.06% ZC
