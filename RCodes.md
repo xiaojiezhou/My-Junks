@@ -42,7 +42,7 @@ require(XLConnect)
 wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
 indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)  
 head(indata)  
-[(back to top](#table-of-contents)]
+[(back to top)](#table-of-contents)]
 
 <div id='id-section6'/>
 ## dplyr 
@@ -103,7 +103,7 @@ head(indata)
     #--- subsample ---#
     sample_n(edges, 10)
     sample_frac(edges, 0.0001, replace=TRUE)
-[(back to top](#table-of-contents)]
+[(back to top)](#table-of-contents)]
 
 
 <div id='sqldf'/>    
@@ -114,6 +114,7 @@ head(indata)
     PrdTitle = sqldf("select PurID, Resp as PrdTitle from a3 where  Measure = 'title' ")
     PrdPrice = sqldf("select PurID, Resp as PrdPrice from a3 where  Measure = 'price' ")
     a1 = sqldf("select a.*, PrdPrice from PrdTitle as a left join  PrdPrice as b where  a.PurID=b. PurID")
+[(back to top)](#table-of-contents)]
 
 <div id='regre'/>   
 ## Regular expression 
@@ -136,6 +137,7 @@ head(indata)
     "[a-zA-Z0-9]" - Alphanumeric characters
     "[ \t\n\r\f\v]" - Special characters
     "[]$*+.?[^{|(\\#%&~_/<=>✬!,:;❵\")}@-]" - Punctuation Characters'''
+[(back to top)](#table-of-contents)]
 
 <div id='id-section3'/>
 ##  Data manipulation  
@@ -155,6 +157,7 @@ head(indata)
     Left outer: merge(x = df1, y = df2, by = "CustomerId", all.x=TRUE)
     Right outer: merge(x = df1, y = df2, by = "CustomerId", all.y=TRUE)
     Cross join: merge(x = df1, y = df2, by = NULL)
+[(back to top)](#table-of-contents)]
   
 <div id='id-section4'/>
 ## Colours & Symbols
@@ -199,6 +202,7 @@ head(indata)
     text(x+0.25,y,pch)
     dev.off()
 
+[(back to top)](#table-of-contents)]    
 <div id='id-section5'/>
 ## Plot Related
 ### -- Line and arrow codes --
@@ -212,6 +216,7 @@ head(indata)
     
     for(i in 1:3){arrows(x1[i]+6, y[i],x2[i]+6, y[i],code=linecode[i])}
     text(x1[1:3]-.8+6,y[1:3],linecode[1:3],pos=4); text(7,0.1,"arrow\ncode",pos=4)
+[(back to top)](#table-of-contents)]
 
    
       
