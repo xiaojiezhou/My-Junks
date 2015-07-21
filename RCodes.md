@@ -1,21 +1,9 @@
 ## R codes
 
-### Code Spans
-You can include literal backticks like `` `What is going on here?` ``.
-
-> An example, single level
-
->> A nested blockquote.
-
-> ### headers in blockquote
->
-
-> * You can quote a list
-> * Etc.
 
 
 # Table of Contents
-1. [Example](#example)
+1. [UsefulWebSite](#example)
 2. [Example2](#example2)
 
 ## Example
