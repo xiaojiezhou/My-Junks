@@ -1,10 +1,9 @@
-## R codes
+### R codes
 
 
-[##TOC](#TOC)
 ## Table of Contents
 1. [Useful R websites](#id-section1)
-2. [XLConnect](#id-section2)
+2. [Read in data](#id-section2)
 3. [Useful R website](#id-section3)
 4. [Example2](#id-section4)
 5. [Useful R website](#id-section5)
@@ -34,22 +33,22 @@
 
 
 <div id='id-section1'/>
-## Useful R websites
+### Useful R websites
 Transition to R (Gregory S. Gilbert website):
       http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics   
 Quick R:
       http://www.statmethods.net/  
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
-###TOC
+
 
 <div id='id-section2'/>
-############  Data Manipulation  ############# 
-#-- Read in Excel file --#
-require(XLConnect)
-    wb = loadWorkbook("Q:\\beauty_care\\clinical\\Biometrics\\HairBiology\\Studies\\2012\\CRB 12-10-106 OSLO\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)
-    indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)
-    head(indata)
+##  Read in data   
+### -- Read in Excel file --
+require(XLConnect)  
+wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
+indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)  
+head(indata)  
 
 #-- Sort --#
     BL=BL[with(BL, order(-MeasureGroup, NewMeasure, Population)),]
