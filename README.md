@@ -4,5 +4,6 @@ This repo included junks that I need to go back to every now and then.
 
 ## Files included:
 * Rcodes.md:  Example of R codes
+* MyRfunctions.md:  My R functions
 * Github.md:  Git commands and markdown examples
 
