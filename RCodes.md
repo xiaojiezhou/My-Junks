@@ -1,9 +1,9 @@
 ## R codes
 
 
-
+[##TOC](#TOC)
 ## Table of Contents
-1. [Useful R website](#id-section1)
+1. [Useful R websites](#id-section1)
 2. [XLConnect](#id-section2)
 3. [Useful R website](#id-section3)
 4. [Example2](#id-section4)
@@ -34,13 +34,14 @@
 
 
 <div id='id-section1'/>
-## Useful R website
+## Useful R websites
 Transition to R (Gregory S. Gilbert website):
       http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics   
 Quick R:
       http://www.statmethods.net/  
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
+###TOC
 
 <div id='id-section2'/>
 ############  Data Manipulation  ############# 
