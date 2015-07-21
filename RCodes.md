@@ -37,8 +37,8 @@
 ## Useful R website
 Transition to R (Gregory S. Gilbert website):
       http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics   
-Quick R:  
-      http://www.statmethods.net/
+Quick R:
+      http://www.statmethods.net/  
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
 
