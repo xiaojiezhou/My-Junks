@@ -54,55 +54,28 @@ head(indata)
     # mutate: add new variables/columns or transform existing variables
     # summarise / summarize: generate summary statistics of different variables in the data frame, possibly within strata 
     # group_by - Generating summary statistics by stratum
-    
+ 
     chicago <- readRDS("chicago.rds")
-    head(select(chicago, -(city:dptp)))
-    filter(chicago, pm25tmean2 > 30 & tmpd > 80)
-    arrange(chicago, desc(date))
+    select(chicago, -(city:dptp))                 #select columns
+    filter(chicago, pm25tmean2 > 30 & tmpd > 80)  #filter rows
+    arrange(chicago, desc(date))                  #sort
     rename(chicago, newname1 = oldname1, newname2 = oldname2)
-    mutate(chicago,pm25detrend=pm25-mean(pm25, na.rm=TRUE))
-
+    mutate(chicago,pm25detrend=pm25-mean(pm25, na.rm=TRUE))     #add variables
+    transform(chicago,pm25detrend=pm25-mean(pm25, na.rm=TRUE))  #add variables 
+    distinct(select(edges, Source))               # distinct value of Source
+    sample_n(edges, 10)                           # random sample
+    sample_frac(edges, 0.0001, replace=TRUE)      # random sample
     
-    #---Row operation ---#
-    filter(edges, Source=="coupon" & Target =="send")
-    slice(edges, 1:10)
-    edges = arrange(edges, Source, Target) #sort
-    
-    #---Column operations---#
-    aa = select(edges, Source)
-    aa = select(edges, -(Target))
-    aa = rename(edges, temp=Target)
-    
-    aa = distinct(select(edges, Source)) # distinct value of Source
-    aa = mutate(edges, Edge=paste(Source,'-',Target))  # newly created var can be referenced in mutate, but not transform
-    aa = transform(edges, Edge=paste(Source,'-',Target))
-    
-    slice(aa, 1:10)
-    
-    #--summarise---#
-    summarise(edges, 
-              count=n(),
-              distnt.Source=n_distinct(Source),
-              distnt.Target=n_distinct(Target),
+    summarise(edges, count=n(), distnt.Source=n_distinct(Source),
               na.rm=TRUE)
     
-    #---group_by:  if a data frame is grouped by group_by, all operation are applied at group_by level---#
+    #---group_by:  after group_by, all operation are applied at group_by level---#
     distnct = group_by(edges, Source, Target)
-    aa = summarise(distnct,
-                   edge.wt = n())
-    slice(aa)
+    summarise(distnct, edge.wt = n())
+    arrange(aa, desc(node.size)) #sort within group_by groups
+    ungroup(aa)
     
-    distnct = group_by(edges, Source)
-    aa = summarise(distnct,
-                   node.size = n())
-    aa = arrange(aa, desc(node.size))
-    aa
-    
-    n(), n_distinct, first(), last(), nth(x,n), sum(), mean(), min, max
-    
-    #--- subsample ---#
-    sample_n(edges, 10)
-    sample_frac(edges, 0.0001, replace=TRUE)
+    #-- Other functions:  n(), n_distinct, first(), last(), nth(x,n), sum(), mean(), min, max
 [(back to top)](#table-of-contents)
 
 
