@@ -27,7 +27,6 @@
     git config --global user.name "xzhou.tennis@gmail.com"
     git config --global user.email "xzhou.tennis@gmail.com"
 
-
 [(back to top)](#table-of-contents)
 
 
@@ -36,7 +35,7 @@
 <div id='markdown'/>
 ## Markdowns
 ### --  Useful links --
-[GitHub Help: Markdown Basics]  (https://help.github.com/articles/markdown-basics/)  
+[GitHub Help: Markdown Basics](https://help.github.com/articles/markdown-basics/)  
 [GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown/)  
 [GitHub Markdown Examples] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)  
 
