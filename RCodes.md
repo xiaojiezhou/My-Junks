@@ -33,7 +33,7 @@ Quick R:
       http://www.statmethods.net/  
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
-[(back to top](#table-of-contents)
+[(back to top)](#table-of-contents)
 
 <div id='id-section2'/>
 ##  Read in data   
