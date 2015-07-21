@@ -1,13 +1,6 @@
 ## R codes
 
 
-# My Table of content
-- [Section 1](#id-section1)
-- [Section 2](#id-section2)
-
-
-<div id='id-section2'/>
-## Section 2
 
 # Table of Contents
 1. [Useful R website](#id-section1)
@@ -41,9 +34,9 @@
 
 
 <div id='id-section1'/>
-## Section 1:  Useful R website
+## Useful R website
 Transition to R (Gregory S. Gilbert website):
-      http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics
+      http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics   
 Quick R:  
       http://www.statmethods.net/
 Help within R
