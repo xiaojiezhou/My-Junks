@@ -1,7 +1,7 @@
 ## R codes
 
 ### Code Spans
-You can include literal backticks like `` `this ``.
+You can include literal backticks like `` `this` ``.
 
 
 ############ Useful R website #############
