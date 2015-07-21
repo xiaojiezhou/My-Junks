@@ -10,7 +10,7 @@
 ## Section 2
 
 # Table of Contents
-1. [Section 1](#id-section1)
+1. [Section 1:  Useful R website](#id-section1)
 2. [Example2](#example2)
 
 asdas
@@ -26,7 +26,7 @@ adsads
 
 
 <div id='id-section1'/>
-## Useful R website
+## Section 1:  Useful R website
 Transition to R (Gregory S. Gilbert website):
       http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics
 Quick R:  
