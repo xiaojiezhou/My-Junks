@@ -3,7 +3,15 @@
 ### Code Spans
 You can include literal backticks like `` `What is going on here?` ``.
 
+> An example, single level
 
+>> A nested blockquote.
+
+> ### headers in blockquote
+>
+
+> * You can quote a list
+> * Etc.
 ############ Useful R website #############
 Transition to R (Gregory S. Gilbert website):
       http://people.ucsc.edu/~ggilbert/RTransition.html#Graphics
