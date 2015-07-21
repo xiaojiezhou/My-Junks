@@ -51,7 +51,7 @@ indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, st
 head(indata)  
 
 <div id='id-section6'/>
-## -- dplyr --
+### dplyr 
     library(dplyr)
     # select: return a subset of the columns of a data frame
     # filter: extract a subset of rows from a data frame based on logical conditions
@@ -110,7 +110,15 @@ head(indata)
     sample_n(edges, 10)
     sample_frac(edges, 0.0001, replace=TRUE)
     
-### Regular Express ###
+###  sqldf ###
+    
+    library(sqldf)
+    
+    PrdTitle = sqldf("select PurID, Resp as PrdTitle from a3 where  Measure = 'title' ")
+    PrdPrice = sqldf("select PurID, Resp as PrdPrice from a3 where  Measure = 'price' ")
+    a1 = sqldf("select a.*, PrdPrice from PrdTitle as a left join  PrdPrice as b where  a.PurID=b. PurID")
+ 
+## -- Regular Express --
     '''
     "." matches everything except for the empty sting "".
     "+" the preceding item will be matched one or more times.
@@ -130,15 +138,6 @@ head(indata)
     "[a-zA-Z0-9]" - Alphanumeric characters
     "[ \t\n\r\f\v]" - Special characters
     "[]$*+.?[^{|(\\#%&~_/<=>✬!,:;❵\")}@-]" - Punctuation Characters'''
-    
-###  sqldf ###
-    
-    library(sqldf)
-    
-    PrdTitle = sqldf("select PurID, Resp as PrdTitle from a3 where  Measure = 'title' ")
-    PrdPrice = sqldf("select PurID, Resp as PrdPrice from a3 where  Measure = 'price' ")
-    a1 = sqldf("select a.*, PrdPrice from PrdTitle as a left join  PrdPrice as b where  a.PurID=b. PurID")
- 
 
 <div id='id-section3'/>
 ##  Data Manipulation  
