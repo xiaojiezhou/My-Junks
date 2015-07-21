@@ -2,25 +2,25 @@
 
 
 ## Table of Contents
-1. [Useful R websites](#id-section1)
-2. [Read in data](#id-section2)
-3. [Data Manipulation](#id-section3)
-4. [Colours & Symbols](#id-section4)
-5. [Useful R website](#id-section5)
-6. [Example2](#id-section6)
-7. [Useful R website](#id-section7)
-8. [Example2](#id-section8)
-9. [Useful R website](#id-section9)
-10. [Example2](#id-section10)
-11. [Useful R website](#id-section11)
-12. [Example2](#id-section12)
-13. [Useful R website](#id-section13)
-14. [Example2](#id-section14)
-15. [Useful R website](#id-section15)
-16. [Example2](#id-section16)
-17. [Useful R website](#id-section17)
-18. [Example2](#id-section18)
-19. [Useful R website](#id-section19)
+* [Useful R websites](#id-section1)
+* [Read in data](#id-section2)
+* [Data Manipulation](#id-section3)
+* [dplyr](#id-section6)
+* [Colours & Symbols](#id-section4)
+* [Plot Related](#id-section5)
+* [Example2](#id-section7)
+* [Example2](#id-section8)
+* [Example2](#id-section9)
+* [Example2](#id-section10)
+* [Example2](#id-section11)
+* [Example2](#id-section12)
+* [Example2](#id-section13)
+* [Example2](#id-section14)
+* [Example2](#id-section15)
+* [Example2](#id-section16)
+* [Example2](#id-section17)
+* [Example2](#id-section18)
+* [Example2](#id-section19)
 
   
   
@@ -112,6 +112,8 @@ head(indata)
     text(x+0.25,y,pch)
     dev.off()
 
+<div id='id-section5'/>
+## Plot Related
 ### -- Line and arrow codes --
     x1=rep(1,6); x2<-rep(3,6); y<-seq(6,1); linecode<-seq(1:6)
     plot(0,0,xlim=c(0,10),ylim=c(0,6.2),pch=1,col=0,axes=FALSE,xlab="",ylab="")
@@ -124,7 +126,8 @@ head(indata)
     for(i in 1:3){arrows(x1[i]+6, y[i],x2[i]+6, y[i],code=linecode[i])}
     text(x1[1:3]-.8+6,y[1:3],linecode[1:3],pos=4); text(7,0.1,"arrow\ncode",pos=4)
 
-############### Data Manupilation via dplyr #################
+<div id='id-section5'/>
+## dplyr 
     library(dplyr)
     # select: return a subset of the columns of a data frame
     # filter: extract a subset of rows from a data frame based on logical conditions
