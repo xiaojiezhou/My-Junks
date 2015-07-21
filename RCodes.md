@@ -2,9 +2,9 @@
 
 
 
-# Table of Contents
+## Table of Contents
 1. [Useful R website](#id-section1)
-2. [Example2](#id-section2)
+2. [XLConnect](#id-section2)
 3. [Useful R website](#id-section3)
 4. [Example2](#id-section4)
 5. [Useful R website](#id-section5)
@@ -42,13 +42,7 @@ Quick R:
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
 
-## Example2
-Add somehting here.  Example 2.
-
-
-
-
-
+<div id='id-section2'/>
 ############  Data Manipulation  ############# 
 #-- Read in Excel file --#
 require(XLConnect)
