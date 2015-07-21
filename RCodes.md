@@ -6,6 +6,7 @@
 * [Read in data](#id-section2)
 * [Data Manipulation](#id-section3)
 * [dplyr](#id-section6)
+* [sqldf](#sqldf) 
 * [Colours & Symbols](#id-section4)
 * [Plot Related](#id-section5)
 * [Example2](#id-section7)
@@ -51,7 +52,7 @@ indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, st
 head(indata)  
 
 <div id='id-section6'/>
-### dplyr 
+## dplyr 
     library(dplyr)
     # select: return a subset of the columns of a data frame
     # filter: extract a subset of rows from a data frame based on logical conditions
@@ -109,8 +110,9 @@ head(indata)
     #--- subsample ---#
     sample_n(edges, 10)
     sample_frac(edges, 0.0001, replace=TRUE)
-    
-###  sqldf ###
+
+<div id='sqldf'/>    
+##  sqldf ###
     
     library(sqldf)
     
