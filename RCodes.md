@@ -7,6 +7,7 @@
 * [Data Manipulation](#id-section3)
 * [dplyr](#id-section6)
 * [sqldf](#sqldf) 
+* [Regular Expressions](#regre) 
 * [Colours & Symbols](#id-section4)
 * [Plot Related](#id-section5)
 * [Example2](#id-section7)
@@ -119,7 +120,8 @@ head(indata)
     PrdTitle = sqldf("select PurID, Resp as PrdTitle from a3 where  Measure = 'title' ")
     PrdPrice = sqldf("select PurID, Resp as PrdPrice from a3 where  Measure = 'price' ")
     a1 = sqldf("select a.*, PrdPrice from PrdTitle as a left join  PrdPrice as b where  a.PurID=b. PurID")
- 
+
+<div id='regre'/>   
 ## -- Regular Express --
     '''
     "." matches everything except for the empty sting "".
