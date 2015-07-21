@@ -12,7 +12,7 @@
 
 <div id='git'/>
 ## Git Commands
-### -- start --
+### -- To start --
      git remote add origin https://github.com/xiaojiezhou/My-Junks.git
      git pull origin master
      
@@ -30,12 +30,14 @@
     git config --global user.email "xzhou.tennis@gmail.com"
 
 
-[(back to top](#table-of-contents)
+[(back to top)](#table-of-contents)
 
+[Visit GitHub!](https://www.github.com).
 
 <div id='markdown'/>
 ## Markdowns
 ### --  Useful links --
-    https://github.com/rasbt/markdown-toclify#output-file-with-back-to-top-links-and-vertical-space
-
-[(back to top](#table-of-contents)
+    [GitHub Help: Markdown Basics](https://help.github.com/articles/markdown-basics/)
+    [GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown/)
+    [GitHub Markdown Examples] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[(back to top)](#table-of-contents)
