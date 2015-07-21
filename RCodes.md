@@ -1,7 +1,7 @@
 # R codes
 
 
-## Table of Contents
+# Table of Contents
 * [Useful R websites](#id-section1)
 * [Read in data](#id-section2)
 * [dplyr](#id-section6)
@@ -9,23 +9,14 @@
 * [Regular expression](#regre) 
 * [Data manipulation](#id-section3)
 * [Colours & symbols](#id-section4)
-* [Plot Related](#id-section5)
-* [Example2](#id-section7)
-* [Example2](#id-section8)
-* [Example2](#id-section9)
-* [Example2](#id-section10)
-* [Example2](#id-section11)
-* [Example2](#id-section12)
-* [Example2](#id-section13)
-* [Example2](#id-section14)
-* [Example2](#id-section15)
-* [Example2](#id-section16)
-* [Example2](#id-section17)
-* [Example2](#id-section18)
-* [Example2](#id-section19)
+* [Plot related](#id-section5)
+* [empty](#id-section7)
+* [empty](#id-section8)
+* [empty](#id-section9)
+* [empty](#id-section10)
+* [empty](#id-section11)
+* [empty](#id-section12)
 
-  
-  
   
   
 
@@ -42,7 +33,7 @@ Quick R:
       http://www.statmethods.net/  
 Help within R
       library(help="igraph") or help("igraph") as a starting point.
-
+[(back to top](#table-of-contents)]
 
 <div id='id-section2'/>
 ##  Read in data   
@@ -51,6 +42,7 @@ require(XLConnect)
 wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
 indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)  
 head(indata)  
+[(back to top](#table-of-contents)]
 
 <div id='id-section6'/>
 ## dplyr 
@@ -111,6 +103,8 @@ head(indata)
     #--- subsample ---#
     sample_n(edges, 10)
     sample_frac(edges, 0.0001, replace=TRUE)
+[(back to top](#table-of-contents)]
+
 
 <div id='sqldf'/>    
 ##  sqldf ###
@@ -122,7 +116,7 @@ head(indata)
     a1 = sqldf("select a.*, PrdPrice from PrdTitle as a left join  PrdPrice as b where  a.PurID=b. PurID")
 
 <div id='regre'/>   
-## -- Regular Express --
+## Regular expression 
     '''
     "." matches everything except for the empty sting "".
     "+" the preceding item will be matched one or more times.
@@ -144,7 +138,7 @@ head(indata)
     "[]$*+.?[^{|(\\#%&~_/<=>✬!,:;❵\")}@-]" - Punctuation Characters'''
 
 <div id='id-section3'/>
-##  Data Manipulation  
+##  Data manipulation  
 ### -- Sort --
     BL=BL[with(BL, order(-MeasureGroup, NewMeasure, Population)),]
     #Above is same as following
@@ -153,7 +147,7 @@ head(indata)
 ### -- Select columns --
     DvsND = DvsND[,c(4,27)]
 
-### -- Select rows
+### -- Select rows --
     indata<-indata[!is.na(indata[,3]),]
 
 ### --Different type of joins --
