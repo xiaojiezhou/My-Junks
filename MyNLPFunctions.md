@@ -1,6 +1,6 @@
 <a id="table-of-contents"></a>
 ## My NLP R Functions - Table of Contents
-* [replace.words](#replace-words)
+* [replace.words: replace words listed in col 1 by words in col 2](#replace-words)
 * [TempJunks](#TmpJunks)
     - [spacehold] (#spaceholder)
 
