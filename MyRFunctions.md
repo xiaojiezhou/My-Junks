@@ -1,5 +1,5 @@
 
-[## My R Functions - Table of Contents](#table-of-contents)
+[## Table of Contents]
 ###* [retain() -- fill next cell with previous one](#retain)
 ###* [c2n.pvalue() -- remove < and dots and convert p-values to numeric](#pvalue)
 
