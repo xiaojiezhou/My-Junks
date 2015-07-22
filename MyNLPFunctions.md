@@ -29,8 +29,7 @@
             txt <- gsub(dict[x,"Org"],dict[x,"Rplc"], txt)
         return(txt)
     }
-    
-#replace.words(mytext, Dict)
+    #replace.words(mytext, Dict)
 
 
 
