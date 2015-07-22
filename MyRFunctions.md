@@ -1,5 +1,5 @@
-
-[## Table of Contents]
+<a id="table-of-contents"></a>
+## Table of Contents
 ###* [retain() -- fill next cell with previous one](#retain)
 ###* [c2n.pvalue() -- remove < and dots and convert p-values to numeric](#pvalue)
 
