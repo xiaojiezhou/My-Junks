@@ -1,7 +1,7 @@
 <a id="table-of-contents"></a>
 ## My NLP R Functions - Table of Contents
 * [replace.words: replace words listed in col 1 by words in col 2](#replace-words)
-* [TempJunks](#TmpJunks)
+* [Some handy function](#handy)
     - [spacehold] (#spaceholder)
 
     
@@ -26,7 +26,7 @@
         dict = apply(dict, c(1,2), trimws)
         
         for(x in 1:nrow(dict))
-            txt <- gsub(dict[x,"Org"],dict[x,"Rplc"], txt)
+            txt <- gsub(dict[x,1],dict[x,2], txt)
         return(txt)
     }
     #replace.words(mytext, Dict)
@@ -40,7 +40,28 @@
 
 
 
-<div id='TmpJunks'/>   
+<div id='handy'/> 
+### - Some handy functions  
+    chartr("iXs", "why", x)     #Translate characters: i -> w, X -> h, s -> y  
+    chartr("a-cX", "D-Fw", x)   #a->D, b->E, c->F, x->w  
+    tolower(x)  
+    toupper(x)
+
+    # --- Small cap --- #
+    .simpleCap <- function(x) {
+        s <- strsplit(x, " ")[[1]]
+        paste(toupper(substring(s, 1, 1)), substring(s, 2),
+              sep = "", collapse = " ")
+    }
+    .simpleCap("the quick red fox jumps over the lazy brown dog")
+    
+
+
+
+
+
+
+
 program='C:\\Program Files (x86)\\Aspell\\bin\\aspell.exe'
 junk<-aspell(as.factor("interface"),program=program)
 

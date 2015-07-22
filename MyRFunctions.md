@@ -1,7 +1,7 @@
 <a id="table-of-contents"></a>
 ## Table of Contents
-### [*retain() -- fill next cell with previous one](#retain)
-###* [c2n.pvalue() -- remove < and dots and convert p-values to numeric](#pvalue)
+* [retain() -- fill next cell with previous one](#retain)
+* [c2n.pvalue() -- remove < and dots and convert p-values to numeric](#pvalue)
 
 <div id='retain'/>
 ###--- Fill the next cell with value from previous row if it is blank ###############
