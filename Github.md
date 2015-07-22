@@ -38,7 +38,7 @@
 [GitHub Help: Markdown Basics](https://help.github.com/articles/markdown-basics/)  
 [GitHub Flavored Markdown] (https://help.github.com/articles/github-flavored-markdown/)  
 [GitHub Markdown Examples] (https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)  
-
+[Creating Table of contents] (https://github.com/rasbt/markdown-toclify)
 [(back to top)](#table-of-contents)
 
 ### -- Need to remember --
