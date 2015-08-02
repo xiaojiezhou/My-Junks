@@ -1,5 +1,5 @@
 # My-Often-Used-Files
-This repo included junks that I need to go back to every now and then.
+This repo included files that I need to go back to every now and then.
 
 
 ## Files included:
