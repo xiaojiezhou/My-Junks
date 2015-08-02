@@ -8,14 +8,14 @@
 <div id='replace-words'/>   
 ### -- Replacing words in ListA by words in ListB --
 
-    # -- Read in lookup table
+    # -- Read in lookup table ---
     require(XLConnect)
     wb = loadWorkbook("C:\\Users\\zhou.x\\Desktop\\Other\\DataScience\\TextAnalytics\\ReplacementWords.xlsx", create = TRUE)
     Dict = readWorksheet(wb, sheet = "sheet1", startCol = 1, endCol = 2, header=TRUE)
     head(Dict)
     # Dict = apply(Dict, c(1,2), trimws)
 
-    # -- messy list
+    # -- messy list ---
     mytext <- c("I couldnt move",
                "he wont go",
                "i dont feel well",
