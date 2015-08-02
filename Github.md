@@ -11,7 +11,7 @@
 <div id='git'/>
 ## Git Commands
 ### -- To start --
-     git remote add origin https://github.com/xiaojiezhou/My-Junks.git
+     git remote add origin https://github.com/xiaojiezhou/My-Often-Used-Files.git
      git pull origin master
      
 ### -- To commit new adds --
@@ -24,12 +24,12 @@
         git commit -m "Message here"
         git push -u origin master
         
-    git config --global user.name "xzhou.tennis@gmail.com"
-    git config --global user.email "xzhou.tennis@gmail.com"
-    
+        git config --global user.name "xzhou.tennis@gmail.com"
+        git config --global user.email "xzhou.tennis@gmail.com"
+        
 ### -- git push origin master error
 
-$  git push -u origin master
+$  git push -u origin master  
 ERROR: Repository not found.
 
 Solution:  Modify .git/config file as follow: 
