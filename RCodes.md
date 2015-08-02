@@ -17,6 +17,7 @@
 
   
   
+https://www.udemy.com/java-online-tutorials/#reviews
 
   
   
@@ -73,7 +74,16 @@ head(indata)
     arrange(aa, desc(node.size)) #sort within group_by groups
     ungroup(aa)
     
-    #-- Other functions:  n(), n_distinct, first(), last(), nth(x,n), sum(), mean(), min, max
+    # Rank within each group
+    df <- data.frame(group=rep(c("GROUP 1", "GROUP 2"),5),
+                     value=as.integer(rnorm(20, mean=1000, sd=500)))
+
+    df <- df %>% 
+        arrange(group, -value) %>%
+        group_by(group) %>%
+        mutate(rank=row_number(), maxi=max(rank))
+
+    #-- Other functions:  n(), n_distinct, first(), last(), nth(x,n), sum(), mean(), min, max, row_number()
 [(back to top)](#table-of-contents)
 
 
