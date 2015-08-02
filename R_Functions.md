@@ -14,8 +14,8 @@
       }
     return(temp)
     }
-
-#  indata$PrimaryAnal<-retains(indata$PrimaryAnal)
+   indata$PrimaryAnal<-retains(indata$PrimaryAnal)
+   
 #  head(indata)
 [(back to top)](#table-of-contents)
 

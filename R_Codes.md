@@ -36,11 +36,11 @@ Help within R
 
 <div id='id-section2'/>
 ##  Read in data   
-### -- Read in Excel file --
-require(XLConnect)  
-wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
-indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)  
-head(indata)  
+### -- Read in Excel file via XLConnect --
+    require(XLConnect)  
+    wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
+    indata = readWorksheet(wb, sheet = "BL HDvsLDvsND",  startRow=2, endRow = 36, startCol = 1, endCol = 45, header=TRUE)  
+    head(indata)  
 [(back to top)](#table-of-contents)
 
 <div id='id-section6'/>
@@ -121,19 +121,19 @@ head(indata)
 [(back to top)](#table-of-contents)
 
 <div id='id-section3'/>
-##  Data manipulation  
-### -- Sort --
+##  Data manipulation: sort, select columns & rows, joins  
+    ### -- Sort --
     BL=BL[with(BL, order(-MeasureGroup, NewMeasure, Population)),]
     #Above is same as following
     BL=BL[order(-BL$MeasureGroup, BL$NewMeasure, BL$Population),]
 
-### -- Select columns --
+    ### -- Select columns --
     DvsND = DvsND[,c(4,27)]
 
-### -- Select rows --
+    ### -- Select rows --
     indata<-indata[!is.na(indata[,3]),]
 
-### --Different type of joins --
+    ### --Different type of joins --
     Outer join: merge(x = df1, y = df2, by = "CustomerId", all = TRUE)
     Left outer: merge(x = df1, y = df2, by = "CustomerId", all.x=TRUE)
     Right outer: merge(x = df1, y = df2, by = "CustomerId", all.y=TRUE)
