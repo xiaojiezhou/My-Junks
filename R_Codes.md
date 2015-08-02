@@ -74,7 +74,7 @@ head(indata)
     arrange(aa, desc(node.size)) #sort within group_by groups
     ungroup(aa)
     
-    # Rank within each group
+    #---Rank within each group---#
     df <- data.frame(group=rep(c("GROUP 1", "GROUP 2"),5),
                      value=as.integer(rnorm(20, mean=1000, sd=500)))
 
