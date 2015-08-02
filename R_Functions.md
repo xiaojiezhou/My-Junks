@@ -1,5 +1,5 @@
 <a id="table-of-contents"></a>
-## Table of Contents
+## R Functions:  Table of Contents
 * [retain() -- fill next cell with previous one](#retain)
 * [c2n.pvalue() -- remove < and dots and convert p-values to numeric](#pvalue)
 
@@ -14,9 +14,8 @@
       }
     return(temp)
     }
-   indata$PrimaryAnal<-retains(indata$PrimaryAnal)
+   #  indata$PrimaryAnal<-retains(indata$PrimaryAnal)
    
-#  head(indata)
 [(back to top)](#table-of-contents)
 
 <div id='pvalue'/>
@@ -29,10 +28,9 @@
       for (i in 1:length(temp)){
         if (temp[i]=='.' | is.na(temp[i]))
           temp[i]="NA"
-      }
-      
+      }  
       return(as.numeric(temp))
     }
-
     #  c2n.pvalue(cpvalue)
+    
 [(back to top)](#table-of-contents)
