@@ -26,6 +26,19 @@
         
     git config --global user.name "xzhou.tennis@gmail.com"
     git config --global user.email "xzhou.tennis@gmail.com"
+    
+### -- git push origin master error
+
+$  git push -u origin master
+ERROR: Repository not found.
+
+Solution:  Modify .git/config file as follow: 
+    ...
+    [remote "origin"]
+	url = https://github.com/xiaojiezhou/My-Often-Used-Files.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+    ...
+
 
 [(back to top)](#table-of-contents)
 
