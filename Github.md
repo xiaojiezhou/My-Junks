@@ -29,15 +29,15 @@
         
 ### -- git push origin master error
 
-$  git push -u origin master  
-ERROR: Repository not found.
+    $  git push -u origin master  
+    ERROR: Repository not found.
 
-Solution:  Modify .git/config file as follow: 
-    ...
-    [remote "origin"]
-	url = https://github.com/xiaojiezhou/My-Often-Used-Files.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-    ...
+    Solution:  Modify .git/config file as follow:  
+        ...
+        [remote "origin"]
+        url = https://github.com/xiaojiezhou/My-Often-Used-Files.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+        ...
 
 
 [(back to top)](#table-of-contents)
