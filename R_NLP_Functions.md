@@ -8,28 +8,35 @@
 <div id='replace-words'/>   
 ### -- Replacing words in ListA by words in ListB --
 
+    # -- replace.words() replaces all words in dict[,1] with  words in dict[,2]
+    # -- It does not replace the word if it is a only partial match
+    # -- Dict is a data.frame with two columns
+    
     # -- Read in lookup table ---
     require(XLConnect)
-    wb = loadWorkbook("C:\\Users\\zhou.x\\Desktop\\Other\\DataScience\\TextAnalytics\\ReplacementWords.xlsx", create = TRUE)
+    wb = loadWorkbook("C:\\Users\\zhou.x\\Desktop\\Other\\DataScience\\TextAnalytics\\R\\ReplacementWords.xlsx", create = TRUE)
     Dict = readWorksheet(wb, sheet = "sheet1", startCol = 1, endCol = 2, header=TRUE)
+    Dict[is.na(Dict[,2]),2] = ""
     head(Dict)
-    # Dict = apply(Dict, c(1,2), trimws)
 
-    # -- messy list ---
-    mytext <- c("I couldnt move",
-               "he wont go",
-               "i dont feel well",
-               "I wasnt aware of this")
-    
+    # -- my messy text ---
+    mytext <- c("I cant move",
+                'I can\'t move',
+                'amd',
+                'camd',
+                'in the place  ')
+    mytext
+
     # -- replace.words function
     replace.words <- function( txt, dict){
         dict = apply(dict, c(1,2), trimws)
         
         for(x in 1:nrow(dict))
-            txt <- gsub(dict[x,1],dict[x,2], txt)
+            txt <- gsub(paste0('\\<', dict[x,1], '\\>'), dict[x,2], txt)
         return(txt)
     }
-    #replace.words(mytext, Dict)
+
+    replace.words(mytext, Dict)
 
 
 

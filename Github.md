@@ -24,8 +24,8 @@
         git commit -m "Message here"
         git push -u origin master
         
-        git config --global user.name "xzhou.tennis@gmail.com"
-        git config --global user.email "xzhou.tennis@gmail.com"
+        git config --global user.name  "xxxx@gmail.com"
+        git config --global user.email "xxxx@gmail.com"
         
 ### -- git push origin master error
 
