@@ -69,15 +69,12 @@
 
 
 
-
+### -Other
 program='C:\\Program Files (x86)\\Aspell\\bin\\aspell.exe'
 junk<-aspell(as.factor("interface"),program=program)
 
 
 install.packages("Aspell", repos = "http://www.omegahat.org/R", version='3.0')
-
-
-
 
 ##### check with Hongxiang about SVD 
 
