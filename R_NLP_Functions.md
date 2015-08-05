@@ -49,7 +49,7 @@
 
 
 <div id='handy'/> 
-### - Some handy functions  
+### -- Some handy functions  
     chartr("iXs", "why", x)     #Translate characters: i -> w, X -> h, s -> y  
     chartr("a-cX", "D-Fw", x)   #a->D, b->E, c->F, x->w  
     tolower(x)  
@@ -69,7 +69,7 @@
 
 
 
-### -Other
+### --Other
 program='C:\\Program Files (x86)\\Aspell\\bin\\aspell.exe'
 junk<-aspell(as.factor("interface"),program=program)
 
