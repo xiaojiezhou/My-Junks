@@ -37,7 +37,8 @@
     }
 
     replace.words(mytext, Dict)
-
+    
+[(back to top)](#table-of-contents)
 
 
 
@@ -61,7 +62,7 @@
               sep = "", collapse = " ")
     }
     .simpleCap("the quick red fox jumps over the lazy brown dog")
-    
+[(back to top)](#table-of-contents)   
 
 
 
