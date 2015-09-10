@@ -1,4 +1,4 @@
-<a id="table-of-contents"></a>
+﻿<a id="table-of-contents"></a>
 ## R Codes:  Table of Contents
 * [Useful R websites](#id-section1)
 * [Read in data](#id-section2)
@@ -8,6 +8,7 @@
 * [Data manipulation](#id-section3)
 * [Colours & symbols](#id-section4)
 * [Plot related](#id-section5)
+* [Other](#id-section6)
 * [empty](#id-section7)
 * [empty](#id-section8)
 * [empty](#id-section9)
@@ -35,7 +36,12 @@ Help within R
 [(back to top)](#table-of-contents)
 
 <div id='id-section2'/>
-##  Read in data   
+##  Read in data  
+### -- Read in Excel data via readxl ---
+    require("readxl")
+    tmp = read_excel("ForR.xlsx", sheet="sheet1")
+    colnames(tmp) = c("Seg", "Cat", "AVG.RPI", "T2BRPI.N", "Cat.N", "T2BRPI.Pct")
+ 
 ### -- Read in Excel file via XLConnect --
     require(XLConnect)  
     wb = loadWorkbook("C:\\Xiaojie\\Plots\\Summary - Plots.xlsx", create = TRUE)  
@@ -118,6 +124,20 @@ Help within R
     "[a-zA-Z0-9]" - Alphanumeric characters
     "[ \t\n\r\f\v]" - Special characters
     "[]$*+.?[^{|(\\#%&~_/<=>✬!,:;❵\")}@-]" - Punctuation Characters'''
+    
+### Often used regular expression: 
+http://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149
+    Matching a user name:  /^[a-z0-9_-]{3,16}$/ 
+    Matching password:  /^[a-z0-9_-]{6,18}$/
+    Matching HEX value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+    Matching a slug:  /^[a-z0-9-]+$/
+    Matching an email address:  /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    Matching a URL: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+    Mathcing an IP address: /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/
+    Matching HTML tag: /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+    
+    
+    
 [(back to top)](#table-of-contents)
 
 <div id='id-section3'/>
@@ -197,7 +217,31 @@ Help within R
     
     for(i in 1:3){arrows(x1[i]+6, y[i],x2[i]+6, y[i],code=linecode[i])}
     text(x1[1:3]-.8+6,y[1:3],linecode[1:3],pos=4); text(7,0.1,"arrow\ncode",pos=4)
+
+### --- histogram with varying bar width ---
+    library(ggplot)
+    ggplot(ttmp, aes(x=xvari, y=yvari, width=wid.vari)) + 
+        geom_bar(aes(fill=colr.vari), stat="identity", position="identity") +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+        ggtitle("Add Title Text Here") + 
+        theme(plot.title = element_text(lineheight=0.9, face="bold"))
+
 [(back to top)](#table-of-contents)
 
    
       
+
+<div id='id-section6'/>
+### -- Find the package where  --
+    library(sos)
+    findFn("sample_frac")
+    
+### --- Look inside an abject ---
+    tmp = attributes(obj)
+    str(tmp)
+
+### --- Check AUC of ROC ---
+  library(caTools)
+  colAUC(train.pred, train$target, plotROC=TRUE)
+
+[(back to top)](#table-of-contents)    

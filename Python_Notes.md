@@ -31,14 +31,14 @@ How to run separate python files?
     Step 1:  generate myfile.pyc (See above)
     Step 2:  from myfile import my_function
     
-theano shared variable
+Theano shared variable:
 
     Theano variable shape.eval()
     .get_value()
     .set_value()
     
-theano shared datasets
+Theano shared datasets:
 
     shared_dataset(test_set)
     
-Remove indentation: <shift> + <tab>
+Remove indentation: "<shift> + <tab>"

@@ -10,6 +10,11 @@
 
 <div id='git'/>
 ## Git Commands
+
+### -- To clone an Existing Repository --
+     git clone https://github.com/xiaojiezhou/My-Often-Used-Files.git
+
+
 ### -- To start --
      git remote add origin https://github.com/xiaojiezhou/My-Often-Used-Files.git
      git pull origin master
