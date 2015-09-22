@@ -1,8 +1,8 @@
 ﻿<a id="table-of-contents"></a>
 ## My NLP R Functions - Table of Contents
-* [replace.words: replace words listed in col 1 by words in col 2](#replace-words)
-* [corpus2sent: break corpus to sentence corpus](#corpus2sent)
-* [text2sent: break text text to sentences and merge back with other data ](#text2sent)
+* [replace.words: Replace words listed in col 1 by words in col 2](#replace-words)
+* [corpus2sent: Break corpus to sentence corpus](#corpus2sent)
+* [text2sent: Break text to sentences and merge back with other data ](#text2sent)
 * [Some handy function](#handy)
     - [spacehold] (#spaceholder)
 
