@@ -144,6 +144,7 @@
 [(back to top)](#table-of-contents)
 
 <div id='cooccur'/> 
+### --- Takes term to document matrix and calculate term co-occurrance frequencies
     #--- Set up data ---#   
     dat <- read.table(text="T1 T2 T3 T4  
     1 1 0 0   
