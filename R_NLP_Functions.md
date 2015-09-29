@@ -145,11 +145,11 @@
 
 <div id='cooccur'/> 
     #--- Set up data ---#
-    dat <- read.table(text="T1 T2 T3 T4
-    1 1 0 0 
-    1 1 0 1
-    1 1 1 1
-    0 0 1 1
+    dat <- read.table(text="T1 T2 T3 T4  
+    1 1 0 0   
+    1 1 0 1  
+    1 1 1 1  
+    0 0 1 1  
     0 0 0 0 ", header=T)
 
     nTerms = dim(dat)[2]
