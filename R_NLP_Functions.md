@@ -3,6 +3,7 @@
 * [replace.words: Replace words listed in col 1 by words in col 2](#replace-words)
 * [corpus2sent: Break corpus to sentence corpus](#corpus2sent)
 * [text2sent: Break text to sentences and merge back with other data ](#text2sent)
+* [Terms co-occurrance freq](#cooccur)
 * [Some handy function](#handy)
     - [spacehold] (#spaceholder)
 
@@ -104,7 +105,6 @@
     library(sqldf)
     library(dplyr)
     library(reshape2)
-    library(sqldf)
     
     ## Convert text to sentences
     convert_text_to_sentences <- function(txt, lang = "en") {
@@ -141,7 +141,48 @@
     dat$ID=1:length(dat$Doc)
     newdat = sqldf("select a.value as sent, b.* from sent as a left join  dat as b where  a.L1=b.ID")
 
+[(back to top)](#table-of-contents)
 
+<div id='cooccur'/> 
+    #--- Set up data ---#
+    dat <- read.table(text="T1 T2 T3 T4
+    1 1 0 0 
+    1 1 0 1
+    1 1 1 1
+    0 0 1 1
+    0 0 0 0 ", header=T)
+
+    nTerms = dim(dat)[2]
+
+    #--- terms co-occurrance freq function  ---#   
+    dtm2cooccur <- function(dtm){
+        From=list()
+        To=list()
+        Ct=list()
+        nTerms = dim(dtm)[2]
+        
+        nedges=0
+        for (i in 1:(nTerms-1)) {
+            for (j in (i+1):nTerms ) {
+                tmp = dtm[,i]%*%dtm[,j]
+                if(tmp>0){
+                    nedges = nedges+1
+                    From = c(From, colnames[i])
+                    To = c(To, colnames[j])
+                    Ct =c(Ct, tmp)
+                }
+            } 
+        }
+        g=NULL
+        g$From= as.matrix(From)
+        g$To = as.matrix(To)
+        g$Ct = as.matrix(Ct)
+        return(as.data.frame(g))
+    }
+
+    #--- Call the function ---#
+    aa = dtm2cooccur(dat)
+    aa[aa$Ct>2,] # co-occur terms with high frequency
 
 
 [(back to top)](#table-of-contents)
