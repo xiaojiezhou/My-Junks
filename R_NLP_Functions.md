@@ -4,8 +4,10 @@
 * [corpus2sent: Break corpus to sentence corpus](#corpus2sent)
 * [text2sent: Break text to sentences and merge back with other data ](#text2sent)
 * [Terms co-occurrance freq](#cooccur)
+* [Create tdm with ngrams](#ngram)
 * [Some handy function](#handy)
     - [spacehold] (#spaceholder)
+
 
     
 <div id='replace-words'/>   
@@ -144,7 +146,7 @@
 [(back to top)](#table-of-contents)
 
 <div id='cooccur'/> 
-### --- Takes term to document matrix and calculate term co-occurrance frequencies
+### --- Takes term document matrix and calculate term co-occurrance frequency
     #--- Set up data ---#   
     dat <- read.table(text="T1 T2 T3 T4  
     1 1 0 0   
@@ -185,8 +187,23 @@
     aa = dtm2cooccur(dat)
     aa[aa$Ct>2,] # co-occur terms with high frequency
 
-
 [(back to top)](#table-of-contents)
+
+<div id='ngram'/>
+### ---  Create ngrams
+    library("RWeka")
+    library("tm")
+
+
+    docs <- c("This is a text.", "This is another one.", "This is fine")
+    c2 <- VCorpus(VectorSource(docs))
+
+    BigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 2, max = 2))
+    tdm <- TermDocumentMatrix(c2, control = list(tokenize = BigramTokenizer))
+
+    inspect(tdm[1:5, 1:2])
+[(back to top)](#table-of-contents)
+
 
 <div id='handy'/> 
 
